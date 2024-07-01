@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD051B1-6609-45D7-A203-AD72A6EEB426}|SistemaGestionUI.csproj|d:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\desafios_coderhouse\\desafio\\preentrega_clase13_\\preentrega_desafio_2\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD051B1-6609-45D7-A203-AD72A6EEB426}|SistemaGestionUI.csproj|solutionrelative:productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131BF402-F197-4411-8F6C-55AD9BE69C1D}|..\\SistemaGestionEntities\\SistemaGestionEntities.csproj|d:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\desafios_coderhouse\\desafio\\preentrega_clase13_\\sistemagestionentities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD051B1-6609-45D7-A203-AD72A6EEB426}|SistemaGestionUI.csproj|D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3CD051B1-6609-45D7-A203-AD72A6EEB426}|SistemaGestionUI.csproj|solutionrelative:productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD051B1-6609-45D7-A203-AD72A6EEB426}|SistemaGestionUI.csproj|d:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\desafios_coderhouse\\desafio\\preentrega_clase13_\\preentrega_desafio_2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD051B1-6609-45D7-A203-AD72A6EEB426}|SistemaGestionUI.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoForm.cs",
+              "DocumentMoniker": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\ProductoForm.cs",
+              "RelativeDocumentMoniker": "ProductoForm.cs",
+              "ToolTip": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\ProductoForm.cs",
+              "RelativeToolTip": "ProductoForm.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAiwEAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T15:01:38.623Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\SistemaGestionEntities\\Producto.cs",
+              "RelativeDocumentMoniker": "..\\SistemaGestionEntities\\Producto.cs",
+              "ToolTip": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\SistemaGestionEntities\\Producto.cs",
+              "RelativeToolTip": "..\\SistemaGestionEntities\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:29:40.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\ProductoForm.cs",
+              "RelativeDocumentMoniker": "ProductoForm.cs",
+              "ToolTip": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\ProductoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProductoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:22:29.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAApwDAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:21:32.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
