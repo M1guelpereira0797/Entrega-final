@@ -19,6 +19,18 @@ namespace SistemaGestionBussiness
         {
             return ProductoVendidoData.GetUsuarios(id);
         }
+        public static bool AltaProductoVendido(ProductoVendido productoVendido)
+        {
+            return ProductoVendidoData.CreateProductoVendido(productoVendido);
+        }
+        public static bool BorrarProducto(int Id)
+        {
+            return ProductoVendidoData.DeleteProductoVendido(Id);
+        }
+        public static bool ModificarProducto(ProductoVendido productoVendido)
+        {
+            return ProductoVendidoData.EditProductoVendido(productoVendido);
+        }
 
     }
 }

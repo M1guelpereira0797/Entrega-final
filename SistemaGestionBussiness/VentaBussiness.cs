@@ -20,7 +20,18 @@ namespace SistemaGestionBussiness
             return VentaData.GetVenta(id);
         }
 
-        
+        public static bool AltaVenta(Venta ventas )
+        {
+            return VentaData.CreateVenta(ventas);
+        }
+        public static bool BorrarProducto(int Id)
+        {
+            return VentaData.DeleteVenta(Id);
+        }
+        public static bool ModificarProducto(Venta ventas)
+        {
+            return VentaData.EditVenta(ventas);
+        }
 
     }
 }
