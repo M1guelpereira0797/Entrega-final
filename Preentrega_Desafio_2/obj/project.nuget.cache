@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x6EB/xID5Xo=",
+  "dgSpecHash": "OId3gphz5pE=",
   "success": true,
-  "projectFilePath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\SistemaGestionUI.csproj",
+  "projectFilePath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\Preentrega_Desafio_2\\SistemaGestionUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\migue\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\migue\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -2189,11 +2189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\SistemaGestionUI.csproj",
+      "projectUniqueName": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\Preentrega_Desafio_2\\SistemaGestionUI.csproj",
       "projectName": "SistemaGestionUI",
-      "projectPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\SistemaGestionUI.csproj",
+      "projectPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\Preentrega_Desafio_2\\SistemaGestionUI.csproj",
       "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-      "outputPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Preentrega_Desafio_2\\obj\\",
+      "outputPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\Preentrega_Desafio_2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2215,11 +2215,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {
-              "projectPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj"
+            "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj": {
+              "projectPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\SistemaGestionBussiness\\SistemaGestionBussiness.csproj"
             },
-            "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
-              "projectPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
+            "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\SistemaGestionEntities\\SistemaGestionEntities.csproj": {
+              "projectPath": "D:\\coder nuevo\\cursodec#\\progrmascursoc#coderhouse\\Desafios_CoderHouse\\Desafio\\Preentrega_Clase13_\\Entrega-final\\SistemaGestionEntities\\SistemaGestionEntities.csproj"
             }
           }
         }

@@ -35,3 +35,16 @@ D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\P
 D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
 D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
 D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.deps.json
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.dll
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.pdb
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.csproj.AssemblyReference.cache
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.GeneratedMSBuildEditorConfig.editorconfig
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfoInputs.cache
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfo.cs
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.csproj.CoreCompileInputs.cache
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.sourcelink.json
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.dll
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll

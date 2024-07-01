@@ -100,7 +100,7 @@ namespace SistemaGestionUI
         {
             string id = txtId.Text;
 
-            var db = new DatabaseContext();
+            var db = new UsuarioBussiness.EliminarUsuario();
 
             Usuario usuario = db.Usuario.Find(int.Parse(id));
             db.Usuario.Remove(usuario);
