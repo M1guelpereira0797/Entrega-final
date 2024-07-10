@@ -47,9 +47,9 @@ namespace Preentrega_Desafio_2
         public void cargarProductoVendido()
         {
 
+            
 
-
-            List<ProductoVendido> productosVendido = ProductoVendidoBussiness.GetUsuarios();
+            List<ProductoVendido> productosVendido = ProductoVendidoBussiness.GetProductoVendidos();
             dgvCliente.AutoGenerateColumns = true;
             dgvCliente.DataSource = productosVendido;
             datosCargados = "Producto Vendido";
@@ -78,11 +78,7 @@ namespace Preentrega_Desafio_2
             {
                 cargarVenta();
             }
-            else
-            {
-                cargarUsuarios();
-
-            }
+          
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -92,6 +88,13 @@ namespace Preentrega_Desafio_2
                 Form2 form2 = new Form2();
                 Program.form1.Hide();
                 form2.Show();
+
+            }
+            else if (datosCargados == "Venta")
+            {
+                VentaForm ventaform = new VentaForm();
+                Program.form1.Hide();
+                ventaform.Show();
 
             }
             else if(datosCargados == "Producto")
@@ -108,13 +111,7 @@ namespace Preentrega_Desafio_2
                 productoVendidoform.Show();
 
             }
-            else if (datosCargados == "Venta")
-            {
-                VentaForm ventaform = new VentaForm();
-                Program.form1.Hide();
-                ventaform.Show();
-
-            }
+         
 
         }
         private void dgvCliente_CellClick(object sender, DataGridViewCellEventArgs e)

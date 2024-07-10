@@ -47,7 +47,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Venta ", "Usuario", "Producto Vendido", "Producto" });
+            comboBox1.Items.AddRange(new object[] { "Venta", "Usuario", "Producto Vendido", "Producto" });
             comboBox1.Location = new Point(12, 12);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);

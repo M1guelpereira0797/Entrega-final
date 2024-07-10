@@ -1,4 +1,4 @@
-﻿using System;
+﻿       using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace SistemaGestionData
 
     public class ProductoVendidoData
     {
-        public static List<ProductoVendido> GetUsuarios()
+        public static List<ProductoVendido> GetProductoVendidos()
         {
             string connectionString = @"Server=localhost\SQLEXPRESS01;Database=Base_Prueba3;Trusted_Connection=True;";
 
@@ -31,15 +31,15 @@ namespace SistemaGestionData
                             {
                                 while (dataReader.Read())
                                 {
-                                    var producto = new ProductoVendido();
+                                    var productoVendido = new ProductoVendido();
 
-                                    producto.Id = Convert.ToInt32(dataReader["Id"]);
-                                    producto.idProducto = Convert.ToInt32(dataReader["ID Producto"]);
-                                    producto.Stock = Convert.ToInt32(dataReader["Stock"]);
-                                    producto.idVenta = Convert.ToInt32(dataReader["id Venta"]);
+                                    productoVendido.Id = Convert.ToInt32(dataReader["Id"]);
+                                    productoVendido.idProducto = Convert.ToInt32(dataReader["IdProducto"]);
+                                    productoVendido.Stock = Convert.ToInt32(dataReader["Stock"]);
+                                    productoVendido.idVenta = Convert.ToInt32(dataReader["idVenta"]);
 
 
-                                    listProductoVendidoData.Add(producto);
+                                    listProductoVendidoData.Add(productoVendido);
 
                                 }
 
@@ -58,7 +58,7 @@ namespace SistemaGestionData
         }
 
         
-        public static ProductoVendido GetUsuarios(int id)
+        public static ProductoVendido GetProductoVendido(int id)
         {
             string connectionString = @"Server=localhost\SQLEXPRESS01;Database=Base_Prueba3;Trusted_Connection=True;";
 
@@ -76,10 +76,9 @@ namespace SistemaGestionData
                 {
                     var productoVendido = new ProductoVendido();
                     productoVendido.Id = Convert.ToInt32(dataReader["Id"]);
-                    /*producto.Descripcion = dataReader["Descripcion"].ToString();*/
-                    productoVendido.idProducto = Convert.ToInt32(dataReader["Costo"]);
-                    productoVendido.Stock = Convert.ToInt32(dataReader["PrecioVenta"]);
-                    productoVendido.idVenta= Convert.ToInt32(dataReader["PrecioVenta"]);
+                    productoVendido.idProducto = Convert.ToInt32(dataReader["ID Producto"]);
+                    productoVendido.Stock = Convert.ToInt32(dataReader["Stock"]);
+                    productoVendido.idVenta = Convert.ToInt32(dataReader["id Venta"]);
 
                     return productoVendido;
                 }

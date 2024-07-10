@@ -10,14 +10,14 @@ namespace SistemaGestionBussiness
 {
     public class ProductoVendidoBussiness
     {
-        public static List<ProductoVendido> GetUsuarios()
+        public static List<ProductoVendido> GetProductoVendidos()
         {
-            return ProductoVendidoData.GetUsuarios();
+            return ProductoVendidoData.GetProductoVendidos();
 
         }
-        public static ProductoVendido GetUsuariosById(int id)
+        public static ProductoVendido GetProductoVendido(int id)
         {
-            return ProductoVendidoData.GetUsuarios(id);
+            return ProductoVendidoData.GetProductoVendido(id);
         }
         public static bool AltaProductoVendido(ProductoVendido productoVendido)
         {

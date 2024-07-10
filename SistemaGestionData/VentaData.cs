@@ -18,7 +18,7 @@ namespace SistemaGestionData
 
             List<Venta> listVentaData = new List<Venta>();
 
-            string query = "SELECT * FROM Venta ";
+            string query = "SELECT * FROM Venta";
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -36,7 +36,7 @@ namespace SistemaGestionData
 
                                     venta.Id = Convert.ToInt32(dataReader["Id"]);
                                     venta.Comentario = dataReader["Comentarios"].ToString();
-                                    venta.idUsuario = dataReader["ID Usuaurio"].ToString();
+                                    venta.idUsuario = dataReader["idUsuaurio"].ToString();
 
 
                                     listVentaData.Add(venta);
@@ -75,9 +75,8 @@ namespace SistemaGestionData
                 {
                     var venta = new Venta();
                     venta.Id = Convert.ToInt32(dataReader["Id"]);
-                    /*producto.Descripcion = dataReader["Descripcion"].ToString();*/
-                    /*venta.Comentario = dataReader["Costo"].ToString(); */
-                    /*venta.idUsuario = dataReader["id Usuario"].ToString(); */
+                    venta.Comentario = dataReader["Comentarios"].ToString();
+                    venta.idUsuario = dataReader["idUsuaurio"].ToString();
 
 
                     return venta;

@@ -141,6 +141,7 @@
             // 
             txtDescripcion.Location = new Point(178, 108);
             txtDescripcion.Name = "txtDescripcion";
+            txtDescripcion.ReadOnly = true;
             txtDescripcion.Size = new Size(100, 23);
             txtDescripcion.TabIndex = 10;
             // 

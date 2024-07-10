@@ -13,7 +13,6 @@ using SistemaGestionBussiness;
 using SistemaGestionData;
 using SistemaGestionUI;
 
-
 namespace SistemaGestionUI
 {
     public partial class ProductoVendidoForm : Form
@@ -36,11 +35,9 @@ namespace SistemaGestionUI
             
              
 
-                var db = new DatabaseContext();
+                ;
 
-                ProductoVendido productovendido = db.ProductoVendido.Find(int.Parse(Id));
-                db.ProductoVendido.Remove(productovendido);
-                db.SaveChanges();
+                ProductoVendido productovendido = new ProductoVendido();
                 MessageBox.Show("Se borro el Cliente");
                 limpiar();
                 Program.form1.Id = 0;

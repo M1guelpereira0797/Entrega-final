@@ -24,7 +24,7 @@ namespace SistemaGestionUI
         {
             limpiar();
             this.Close();
-            Program.form1.cargarUsuarios();
+            Program.form1.cargarProducto();
             Program.form1.Show();
         }
 
@@ -46,11 +46,11 @@ namespace SistemaGestionUI
             if (IdUsuario > 0)
             {
                 Producto productoEdit = ProductoData.GetProducto(IdUsuario);
-                productoEdit.Id = Id;
+                
                 productoEdit.Descripcion = Descripcion;
-                productoEdit.Costo = Costo;
-                productoEdit.Stock = Stock;
-                productoEdit.PrecioVenta = PrecioVenta;
+                productoEdit.Costo = Convert.ToDouble(Costo);
+                productoEdit.Stock = Convert.ToInt32(Stock);
+                productoEdit.PrecioVenta = Convert.ToDouble(PrecioVenta);
 
                 MessageBox.Show("Se modifico el Cliente");
 
@@ -59,15 +59,15 @@ namespace SistemaGestionUI
             {
                 Producto productoNew = ProductoData.GetProducto(IdUsuario);
                 productoNew.Descripcion = Descripcion;
-                productoNew.Costo = Costo;
-                productoNew.Stock= Stock;
-                productoNew.PrecioVenta = PrecioVenta;
-                productoNew.Id = Id;
+                productoNew.Costo = Convert.ToDouble(Costo);
+                productoNew.Stock= Convert.ToInt32(Stock);
+                productoNew.PrecioVenta = Convert.ToDouble(PrecioVenta);
+               
 
-                UsuarioData.GetUsuario(IdUsuario);
+                ProductoData.GetProducto(IdUsuario);
                 MessageBox.Show("Se creo el nuevo Cliente");
             }
-            /*db.SaveChanges();*/
+           
             limpiar();
             this.Close();
             Program.form1.Id = 0;
@@ -79,10 +79,9 @@ namespace SistemaGestionUI
         {
             string Id = txtId.Text;
 
-            var db = ProductoBussiness.BorrarProducto(Id);
-            Producto productos= db.Producto.Find(int.Parse(Id));
-            db.ProductoBussiness.Remove(productos);
-            db.SaveChanges();
+           
+            Producto productos= new Producto();
+            
             MessageBox.Show("Se borro el producto");
             limpiar();
             Program.form1.Id = 0;
@@ -94,11 +93,11 @@ namespace SistemaGestionUI
         }
         private void limpiar()
         {
-            txtNombre.Text = null;
-            txtApellido.Text = null;
-            txtContrasena.Text = null;
-            txtMail.Text = null;
-            txtId.Text = null;
+            txtDescripcion.Text = null;
+            txtStock.Text = null;
+            txtPrecioVenta.Text = null;
+            txtCosto.Text = null;
+            txtIdUsuario.Text = null;
         }
     }
 }

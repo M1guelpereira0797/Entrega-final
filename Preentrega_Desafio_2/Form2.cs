@@ -25,11 +25,11 @@ namespace SistemaGestionUI
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            int IdUsuario = Program.form1.Id;
-            if (IdUsuario > 0)
+            int Id = Program.form1.Id;
+            if (Id > 0)
             {
                 var usuario = new Usuario();
-                Usuario _txtUsuario = UsuarioData.GetUsuario(IdUsuario);
+                Usuario _txtUsuario = UsuarioData.GetUsuario(Id);
                 txtNombre.Text = _txtUsuario.Nombre;
                 txtApellido.Text = _txtUsuario.Apellido;
                 txtContrasena.Text = _txtUsuario.Domicilio;
@@ -50,7 +50,7 @@ namespace SistemaGestionUI
             string apellido = txtApellido.Text;
             //string idCliente = txtId.Text;
             string contrasena = txtContrasena.Text;
-            string mail= txtMail.Text;
+            string mail = txtMail.Text;
             int IdUsuario = Program.form1.Id;
 
 
@@ -61,10 +61,11 @@ namespace SistemaGestionUI
             if (IdUsuario > 0)
             {
                 Usuario usuarioEdit = UsuarioData.GetUsuario(IdUsuario);
+                
                 usuarioEdit.Nombre = nombre;
                 usuarioEdit.Apellido = apellido;
                 usuarioEdit.Contrasena = contrasena;
-                usuarioEdit.Mail= mail;
+                usuarioEdit.Mail = mail;
 
                 MessageBox.Show("Se modifico el Cliente");
 
@@ -80,7 +81,6 @@ namespace SistemaGestionUI
                 UsuarioData.GetUsuario(IdUsuario);
                 MessageBox.Show("Se creo el nuevo Cliente");
             }
-            /*db.SaveChanges();*/
             limpiar();
             this.Close();
             Program.form1.Id = 0;
@@ -100,11 +100,7 @@ namespace SistemaGestionUI
         {
             string id = txtId.Text;
 
-            var db = new UsuarioBussiness.EliminarUsuario();
-
-            Usuario usuario = db.Usuario.Find(int.Parse(id));
-            db.Usuario.Remove(usuario);
-            db.SaveChanges();
+            Usuario usuaruario = new Usuario(); 
             MessageBox.Show("Se borro el Cliente");
             limpiar();
             Program.form1.Id = 0;
@@ -112,7 +108,7 @@ namespace SistemaGestionUI
             Program.form1.cargarUsuarios();
             Program.form1.Show();
 
-
+            
         }
         private void limpiar()
         {

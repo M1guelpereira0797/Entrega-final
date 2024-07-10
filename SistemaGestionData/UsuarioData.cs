@@ -93,10 +93,13 @@ namespace SistemaGestionData
             string connectionString = @"Server=localhost\SQLEXPRESS01;Database=Base_Prueba3;Trusted_Connection=True;";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "INSERT INTO Usuario(nombre, apellido, domicilio, telefono) values(@nombre, @apellido, @domicilio, @telefono)";
+                string query = "INSERT INTO Usuario(nombre, apellido,NombreUsuario, Contrasena, Mail, domicilio, telefono) values(@nombre, @apellido,@NombreUsuario,@Contrasena,@Mail, @domicilio, @telefono)";
                 SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("nombre",usuario.Nombre);
                 command.Parameters.AddWithValue("apellido", usuario.Apellido);
+                command.Parameters.AddWithValue("NombreUsuario", usuario.NombreUsuario);
+                command.Parameters.AddWithValue("Contrasena", usuario.Contrasena);
+                command.Parameters.AddWithValue("Mail", usuario.Mail);
                 command.Parameters.AddWithValue("domicilio", usuario.Domicilio);
                 command.Parameters.AddWithValue("telefono", usuario.Telefono);
                 connection.Open();

@@ -33,11 +33,9 @@ namespace SistemaGestionUI
         {
             string id = txtId.Text;
 
-            var db = new VentaBussiness.GetVentaById(id);
 
-            Venta ventas = db.Ventas.Find(int.Parse(id));
-            db.Ventas.Remove(ventas);
-            db.SaveChanges();
+            Venta ventas = new Venta();
+            
             MessageBox.Show("Se borro el comentario");
             limpiar();
             Program.form1.Id = 0;
@@ -86,7 +84,7 @@ namespace SistemaGestionUI
                 VentaData.GetVenta(IdUsuario);
                 MessageBox.Show("Se creo la nueva venta");
             }
-            /*db.SaveChanges();*/
+           
             limpiar();
             this.Close();
             Program.form1.Id = 0;
