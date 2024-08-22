@@ -43,44 +43,59 @@ namespace SistemaGestionUI
             }
 
         }
+        private readonly UsuarioBussiness _service;
+
+        public SistemaGestionUI(UsuarioBussiness service)
+        {
+            _service = service;
+            
+        }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            string nombre = txtNombre.Text;
-            string apellido = txtApellido.Text;
-            //string idCliente = txtId.Text;
-            string contrasena = txtContrasena.Text;
-            string mail = txtMail.Text;
-            int IdUsuario = Program.form1.Id;
-
-
-            var usuario = new Usuario();
-
-
-
-            if (IdUsuario > 0)
+        
+        Usuario usuario = new Usuario
             {
-                Usuario usuarioEdit = UsuarioData.GetUsuario(IdUsuario);
-                
-                usuarioEdit.Nombre = nombre;
-                usuarioEdit.Apellido = apellido;
-                usuarioEdit.Contrasena = contrasena;
-                usuarioEdit.Mail = mail;
 
-                MessageBox.Show("Se modifico el Cliente");
 
-            }
-            else
-            {
-                Usuario usuarioNew = new Usuario();
-                usuarioNew.Nombre = nombre;
-                usuarioNew.Apellido = apellido;
-                usuarioNew.Contrasena = contrasena;
-                usuarioNew.Mail = mail;
+                Nombre = txtNombre.Text,
+                Apellido = txtApellido.Text,
+                Contrasena = txtContrasena.Text,
+                Mail = txtMail.Text
+            };
 
-                UsuarioData.GetUsuario(IdUsuario);
-                MessageBox.Show("Se creo el nuevo Cliente");
-            }
+            _service.AltaUsuario(usuario);
+            MessageBox.Show("Usuario ingresado correctamente");
+
+
+               
+
+
+
+            /* if (Id > 0)
+
+             {
+                 Usuario usuarioEdit = new Usuario();
+
+                 usuarioEdit.Nombre = Nombre;
+                 usuarioEdit.Apellido = apellido;
+                 usuarioEdit.Contrasena = contrasena;
+                 usuarioEdit.Mail = mail;
+
+                 MessageBox.Show("Se modifico el Cliente");
+
+             }
+             else
+             {
+                 Usuario usuarioNew = new Usuario();
+                 usuarioNew.Nombre = nombre;
+                 usuarioNew.Apellido = apellido;
+                 usuarioNew.Contrasena = contrasena;
+                 usuarioNew.Mail = mail;
+
+                 UsuarioData.GetUsuario(Id);
+                 MessageBox.Show("Se creo el nuevo Cliente");
+             }*/
             limpiar();
             this.Close();
             Program.form1.Id = 0;

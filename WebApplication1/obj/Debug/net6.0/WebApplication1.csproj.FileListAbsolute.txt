@@ -37,3 +37,14 @@ D:\coder nuevo\curso_de_c#\progrmas _curso_c#_coder_house\Desafios_CoderHouse\De
 D:\coder nuevo\curso_de_c#\progrmas _curso_c#_coder_house\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
 D:\coder nuevo\curso_de_c#\progrmas _curso_c#_coder_house\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
 D:\coder nuevo\curso_de_c#\progrmas _curso_c#_coder_house\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.sourcelink.json
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+D:\coder nuevo\cursodec#\progrmascursoc#coderhouse\Desafios_CoderHouse\Desafio\Preentrega_Clase13_\Entrega-final\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb

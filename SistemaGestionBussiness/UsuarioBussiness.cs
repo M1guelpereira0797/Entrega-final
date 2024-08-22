@@ -15,7 +15,7 @@ namespace SistemaGestionBussiness
             return UsuarioData.GetUsuarios();
 
         }
-        public static void AltaUsuario(Usuario usuario)
+        public void AltaUsuario(Usuario usuario)
         {
             UsuarioData.CreateUsuario(usuario);
         }

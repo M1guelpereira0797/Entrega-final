@@ -73,7 +73,7 @@ namespace SistemaGestionData
 
                 if (dataReader.Read())
                 {
-                    var usuario = new Usuario();
+                    Usuario usuario = new Usuario();
                     usuario.Id = Convert.ToInt32(dataReader["Id"]);
                     usuario.Nombre = dataReader["Nombre"].ToString();
                     usuario.Apellido = dataReader["Apellido"].ToString();
